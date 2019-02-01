@@ -48,7 +48,7 @@
 
     
     
-    <div class="card-deck-wrapper" style="position: absolute;top:20%;" >
+    <div class="card-deck-wrapper"  >
 			<div class="card-deck">
 			<div class="card card-block card-inverse text-center text-white bg-primary">
 				<!--<img style="width: 100%;height: 60%;" class="img-responsive" src="../img/b3.jpg" />-->
@@ -257,33 +257,7 @@
 					
 			
 			
-			$(function(){
-		
-		
-		  var oBox = document.getElementById("topbox");
-            oBox.onclick = function (ev) {
-                var ev = ev || window.event;
-                var target = ev.target || ev.srcElement;
-                if(target.nodeName.toLocaleLowerCase() == 'h1'){
-                    switch(target.id){
-                        case 'l' :
-                            location.href="../login.html";
-                            break;
-                        case 'o' :
-                           location.href="lovetime.html";
-                            break;
-                        case 'v' :
-                            location.href="timelist.html";
-                            break;
-                        case 'e' :
-                             location.href="time.html";
-                            break;
-                    }
-                }
-            }
-		
-		
-	})
+	
 			
 		</script>
 
