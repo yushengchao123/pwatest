@@ -1,10 +1,11 @@
 {
   "name": "chaopwa",
-    "short_name": "Web Leaders",
+    "short_name": "chao",
     "description": "Web Community Leaders landing page",
     "lang": "en-GB",
-    "start_url": "/",
+    "start_url": "https://yushengchao123.github.io/pwatest/index.html",
     "display": "standalone",
+    "orientation": "portrait",
     "theme_color": "#E6E6FA",
     "background_color": "#E6E6FA",
 
